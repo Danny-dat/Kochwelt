@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hähnchencurry</title>
+
+    <link rel="icon" type="image/png" href="img/logo_small.png">
+
+   
+    <link rel="stylesheet" href="style_rezeptseite.css" />
+    
+  </head>
+  <body onload="calculateResulte()">
+    
+  
+    <header>
+
+      <div class="header-box">
+      <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      
+      <div class="menubar">
+        <a href="index.html">Start</a>
+        <a href="rezeptseite_des_Tages.html">Rezept des Tages</a>
+        <a href="kontaktseite.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+  
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      </div>
+    </header>
+    
+    
+    
+    <div class="overallBox2 ">
+   
+    <div class="overallBox">
+    <div>
+      <h1>Paella mit Meeresfrüchten</h1>
+      <img src="img/paella-1167973_1920.jpg" alt="" class="coverimg">
+      <div class="tagBox">
+        <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> 30 Min.</p>
+        <p class="tagbox"><img src="img/brain-solid.svg" alt="" class="iconTag">simpel</p>
+        <p class="tagbox"><img src="img/calendar-alt-regular.svg" alt="" class="iconTag">26.10.2017</p>
+      </div>
+    </div>
+    <div class="blocker"></div>
+    <div class="rezeptbox">
+      
+
+      <div class="media_sice ">  Zutaten für: 
+
+        <div class="media_sice inputbox">
+      <input class="input"  type="number"  value="4" id="anzahl" min="1" max="20"/> 
+        <button  onclick="calculateResulte()">Portionen</button>
+      </div>
+      </div>
+
+      <table class="table">
+       
+          
+          <td class="td thcolor" ><span id="ergebniss0"> </span> Pck	Meeresfrüchte 300 - 400g </td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss1"></span> g Paellareis oder Risotto </td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss2"></span> g Erbsen, TK</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss3"></span> m.-große Zwiebeln</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss4"></span> Knoblauchzehen</td>
+        
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss5"></span> Paprikaschote(n), rote </td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss6"></span> EL Olivenöl, natives</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss7"></span> TL Safran, alternativ Kurkuma</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss8"></span>  TL 	Paprikapulver </td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss9"></span> Msp. Cayennepfeffer </td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss10"></span> ml 	Gemüsebrühe </td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss11"></span>ml 	Weißwein </td>
+          
+        </tr>
+      <!--<tr>
+          <td class="td thcolor"><span id="ergebniss12"></span> g Erbsen (TK)</td>
+          
+        </tr> -->  
+        <tr>
+          <td class="td thcolor">nach Geschmack Salz & Pfeffer</td>
+          
+        </tr>
+       <!-- <tr>
+          <td class="td thcolor">etwas Frischer Koriander (optional)</td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss13"></span> g Reis als Beilage</td>
+          
+        </tr>-->
+      </table>
+    </div>
+
+    <div  >
+      <h2>Zubereitung</h2>
+      <div class="anleitungTagBox">
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> ca. 25 Minuten </p>
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag">Gesamtzeit ca. 55 Minuten </p>
+    </div>
+      <p class="anleitungBox" >
+        3 EL Olivenöl erhitzen, Zwiebeln und die Hälfte des kleingehackten Knoblauchs glasig dünsten. <br>
+        Den Reis hinzufügen, kurz mit andünsten und mit Safran/Kurkuma und Pfeffer würzen.<br>
+        Mit dem Wein und der Brühe auffüllen, zum Kochen bringen und unter Rühren garen.
+         <br>
+         <br>
+
+         In einer separaten Pfanne 3 EL Olivenöl erhitzen. Nun die Meeresfrüchte,<br>
+        die in Streifen geschnittene Paprika, die Erbsen und den restlichen Knoblauch kurz anbraten<br>
+        und zu dem Reis geben. Alles so lange köcheln, bis die Brühe weitestgehend verkocht ist.<br>
+        Mit Paprika, Cayennepfeffer und Salz abschmecken. 
+      </p>
+    </div>
+
+    <div>
+      <h3>Rezept erstellt von</h3>
+
+      <div class="youserbox">
+        <img src="PlaceHolder" alt="" class="youserImg">
+        <p>UserName</p>
+      </div>
+    </div>
+  
+  
+  
+  </div>
+  
+  </div>
+
+
+
+  <footer>
+  <div class="footer-box">
+  <a href="https://facebook.com/" target="_blank">
+    <img src="img/facebook-footer-icon.png" alt="Facebook-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="img/instagram-footer-icon.png" alt="Instagram-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://twitter.com/" target="_blank">
+    <img src="img/X_logo.jpg" alt="Twitter-Icon" class="social-media-footer-icon">
+  </a>
+</div>
+  </footer>
+
+
+</body>
+
+  <script src="rezeptseite_des_Tages.js"></script>
+
+</html>

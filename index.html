@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unser Restaurant</title>
+
+    <link rel="icon" type="image/png" href="img/logo_small.png">
+
+    <link rel="stylesheet" href="style_index.css" />
+    
+  </head>
+  <body onload="renderFiltered(1)">
+   
+    
+    
+ 
+    <header>
+
+      <div class="header-box">
+      <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      
+      <div class="menubar">
+        <a href="index.html">Start</a>
+        <a href="rezeptseite_des_Tages.html">Rezept des Tages</a>
+        <a href="kontaktseite.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+  
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+    </div>
+    </header>
+
+      <div class="overallBox2">
+   <div class="overallBox">
+   
+   
+    <div class="top-container padding-left-right">
+      <a class="top-container img"  href="rezeptseite_des_Tages.html"><img src="img/paella-1167973_1920.jpg" alt="" /></a>
+      <div class="top-container-right-side">
+        <h1>Paella mit Meeresfrüchten</h1>
+        <p class="paddingText">
+          Köstlich, aromatisch, einfach unwiderstehlich! Diese Paella mit frischen Meeresfrüchten, 
+          zartem Gemüse und einer würzigen Brühe ist der Inbegriff von mediterranem Genuss.
+          Schnell zubereitet, voll von Geschmack und mit einer perfekten Balance aus Aromen 
+          <br>
+          <br>
+          ideal für ein entspanntes Wohlfühlgericht!
+        </p>
+        <a class="button" href="rezeptseite_des_Tages.html">Rezept öffnen</a>
+      </div>
+    </div>
+
+
+    <div class="imgslide">
+
+
+      <div class="imgslide-heading">
+        <h2>Lust auf was Neues?</h2>
+      </div>
+    
+    
+      <div class="imgslide-foodboxes">
+    
+      <a class="foodbox" href="rezeptseite_2.html">
+        <img class="foodbox-img" src="img/pasta-3150916_1920.jpg" alt="food1">
+        <h3>Pasta mit cremiger Tomaten-Sahne-Soße</h3>
+      </a>
+    
+      <a class="foodbox" href="rezeptseite_3.html">
+        <img class="foodbox-img" src="img/risotto.jpg" alt="food1">
+        <h3>Champignon - Risotto</h3>
+     </a>
+      
+      <a class="foodbox" href="rezeptseite_4.html">
+        <img class="foodbox-img" src="img/chili-con-carne.webp" alt="food1">
+        <h3>Chili con Carne</h3>
+      </a>
+    
+      </div>
+    
+    </div>
+   
+   
+    <div class="box_3">
+    <div class="content_box_3" id="content">
+      
+    </div>
+    <div >
+    <button class="renderButton buttonbottem " onclick="renderFiltered(1)">1</button>
+    <button class="renderButton buttonbottem " onclick="renderFiltered(2)">2</button>
+    <button class="renderButton buttonbottem " onclick="renderFiltered(3)">3</button>
+  </div>
+</div>
+</div>
+
+</div>
+
+<footer>
+  <div class="footer-box">
+  <a href="https://facebook.com/" target="_blank">
+    <img src="img/facebook-footer-icon.png" alt="Facebook-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="img/instagram-footer-icon.png" alt="Instagram-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://twitter.com/" target="_blank">
+    <img src="img/X_logo.jpg" alt="Twitter-Icon" class="social-media-footer-icon">
+  </a>
+</div>
+</footer>
+
+  <script src="startseite_Team.js"></script>
+
+
+</html>

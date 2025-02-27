@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chili con Carne</title>
+
+    <link rel="icon" type="image/png" href="img/logo_small.png">
+
+  
+    <link rel="stylesheet" href="style_rezeptseite.css" />
+    
+  </head>
+  <body onload="calculateResulte()">
+   
+    
+    <header>
+
+      <div class="header-box">
+      <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      
+      <div class="menubar">
+        <a href="index.html">Start</a>
+        <a href="rezeptseite_des_Tages.html">Rezept des Tages</a>
+        <a href="kontaktseite.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+  
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      </div>
+    </header>
+
+
+    <div class="overallBox2 ">
+   
+    <div class="overallBox">
+    
+    
+      <div>
+        <h1>Chili con Carne</h1>
+      <img src="img/chili-con-carne.webp" alt="" class="coverimg">
+      <div class="tagBox">
+        <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> 30 Min.</p>
+        <p class="tagbox"><img src="img/brain-solid.svg" alt="" class="iconTag">simpel</p>
+        <p class="tagbox"><img src="img/calendar-alt-regular.svg" alt="" class="iconTag"> 18.03.2024</p>
+      </div>
+    </div>
+
+
+    <div class="blocker"></div>
+    <div class="rezeptbox">
+      
+
+      <div class="media_sice " >  Zutaten für: 
+        <div class="media_sice inputbox" >
+      <input  class="input" type="number"  value="4" id="anzahl" min="1" max="20"/> 
+        <button  onclick="calculateResulte()">Portionen</button>
+      </div>
+      </div>
+
+      <table class="table">
+       
+          
+          <td class="td thcolor" ><span id="ergebniss0"></span> Zwiebeln</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss1"></span> EL Öl</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss2"></span> g Hackfleisch (Rind oder gemischt)</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss3"></span> Paprika (rot & gelb)</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss4"></span> EL Tomatenmark</td>
+        
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss5"></span> g gehackte Tomaten</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss6"></span> Knoblauchzehen</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss7"></span> ml Rinderfond</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss8"></span> g Mais</td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss9"></span> TL Salz, Pfeffer, Paprikapulver (edelsüß & rosenscharf)</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss10"></span> TL Tabasco oder einige Spritzer</td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss11"></span> TL Chili oder Cayennepfeffer (nach Geschmack)</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss12"></span> g Kidneybohnen</td>
+          
+        </tr>
+        
+      </table>
+    </div>
+
+    <div  >
+      <h2>Zubereitung</h2>
+      <div class="anleitungTagBox">
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> Garzeit 30-45 Minuten </p>
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag">Gesamtzeit ca. 1 Stunde
+     </p>
+    </div>
+      <p class="anleitungBox" >
+        Für ein klassisches Chili con Carne werden zuerst die Zwiebeln geschält, gewürfelt und in einem großen Topf mit etwas Öl goldgelb angebraten. Anschließend kommt das Hackfleisch hinzu, das krümelig gebraten wird, bis es eine schöne Farbe angenommen hat. Währenddessen werden die Paprika gewaschen, entkernt und in kleine Stücke geschnitten. Diese gibt man zum Hackfleisch und brät sie kurz mit an
+      <br>
+      <br>Danach wird das Tomatenmark untergerührt und leicht angeröstet, bevor die gehackten Tomaten, der fein gehackte Knoblauch und die Gewürze – Salz, Pfeffer, Paprikapulver, Tabasco sowie Chili oder Cayennepfeffer – hinzugefügt werden. Die Menge der Gewürze sollte zunächst vorsichtig dosiert und später nach Geschmack angepasst werden. Nun wird die Brühe aufgegossen und das Chili bei mittlerer Hitze 30 bis 45 Minuten eingekocht. Falls die Flüssigkeit zu stark reduziert, kann zwischendurch etwas Brühe nachgegossen werden.
+      <br>
+      <br>Kurz vor Ende der Garzeit werden die Kidneybohnen und der Mais aus der Dose genommen, gründlich abgespült und unter das Chili gemischt. Diese Zutaten müssen nur wenige Minuten mitgaren.
+      <br>
+      <br>Zum Schluss wird das Gericht nochmals abgeschmeckt und gegebenenfalls nachgewürzt.
+      <br>Chili con Carne schmeckt besonders gut, wenn es gut durchgezogen ist, weshalb es sich hervorragend als Gericht für den Vortag eignet. Serviert wird es in tiefen Tellern oder Schüsseln, begleitet von knusprigem Baguette, Tortillas oder Nachos. Wer das Chili geschmacklich etwas verfeinern möchte, kann zusätzlich Kreuzkümmel, dunkles Kakaopulver und einen doppelten Espresso einrühren, um eine besondere Note zu erhalten.
+    </p>
+  </div>
+
+  <div>
+    <h3>Rezept erstellt von</h3>
+
+    <div class="youserbox">
+      <img src="PlaceHolder" alt="" class="youserImg">
+      <p>UserName</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+</div>
+<footer>
+  <div class="footer-box">
+  <a href="https://facebook.com/" target="_blank">
+    <img src="img/facebook-footer-icon.png" alt="Facebook-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="img/instagram-footer-icon.png" alt="Instagram-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://twitter.com/" target="_blank">
+    <img src="img/X_logo.jpg" alt="Twitter-Icon" class="social-media-footer-icon">
+  </a>
+</div>
+  </footer>
+</body>
+
+<script src="rezeptseite_3_Team.js"></script>
+
+</html>

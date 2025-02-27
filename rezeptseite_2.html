@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasta mit Tomaten-Soße</title>
+
+    <link rel="icon" type="image/png" href="img/logo_small.png">
+
+  
+    <link rel="stylesheet" href="style_rezeptseite.css" />
+    
+  </head>
+  <body onload="calculateResulte()">
+   
+  
+    <header>
+
+      <div class="header-box">
+      <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      
+      <div class="menubar">
+        <a href="index.html">Start</a>
+        <a href="rezeptseite_des_Tages.html">Rezept des Tages</a>
+        <a href="kontaktseite.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+  
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+    </div>
+  </header>
+
+
+    <div class="overallBox2 ">
+   
+    <div class="overallBox">
+    
+    
+      <div>
+      <h1>Pasta mit cremiger Tomaten-Sahne-Soße</h1>
+      <img src="img/pasta-3150916_1920.jpg" alt="" class="coverimg">
+      <div class="tagBox">
+        <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> 25 Min.</p>
+        <p class="tagbox"><img src="img/brain-solid.svg" alt="" class="iconTag">simpel</p>
+        <p class="tagbox"><img src="img/calendar-alt-regular.svg" alt="" class="iconTag">15.08.2024</p>
+      </div>
+    </div>
+
+
+    <div class="blocker"></div>
+    <div class="rezeptbox">
+      
+
+      <div class="media_sice " >  Zutaten für: 
+        <div class="media_sice inputbox" >
+      <input  class="input" type="number"  value="4" id="anzahl" min="1" max="20"/> 
+        <button  onclick="calculateResulte()">Portionen</button>
+      </div>
+      </div>
+
+      <table class="table">
+       
+          
+          <td class="td thcolor" ><span id="ergebniss0"></span> g Pasta (z. B. Penne oder Spaghetti)</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss1"></span> Zwiebel</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss2"></span> Knoblauchzehen</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss3"></span> EL Olivenöl</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss4"></span>g Kirschtomaten</td>
+        
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss5"></span> g getrocknete Tomaten</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss6"></span> ml Sahne</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss7"></span> ml Gemüsebrühe</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss8"></span> g Parmesan (gerieben)</td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss9"></span> TL Tomatenmark</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss10"></span> TL Oregano</td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss11"></span> TL Basilikum (getrocknet)</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss12"></span> TL Chiliflocken (optional)</td>
+          
+        </tr>
+        <tr>
+          <td class="td">nach Geschmack Salz & Pfeffer</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor">etwas frischer Basilikum</td>
+          
+        </tr>
+        <tr>
+          <td class="td"><span id="ergebniss13"></span> EL Butter</td>
+          
+        </tr>
+      </table>
+    </div>
+
+    <div  >
+      <h2>Zubereitung</h2>
+      <div class="anleitungTagBox">
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> ca. 10 Minuten </p>
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag">Gesamtzeit ca. 25 Minuten </p>
+    </div>
+      <p class="anleitungBox" >
+        Die Zwiebel und den Knoblauch fein hacken. Die Kirschtomaten halbieren und die getrockneten Tomaten klein schneiden.
+         Die Pasta in Salzwasser nach Packungsanweisung al dente kochen, dann abgießen und beiseitestellen.
+          Währenddessen das Olivenöl in einer großen Pfanne erhitzen und die Zwiebeln sowie den Knoblauch darin glasig anbraten.
+           Anschließend das Tomatenmark hinzufügen und kurz anrösten. Danach die Kirschtomaten und die getrockneten Tomaten dazugeben und für 2–3 Minuten anbraten. 
+           Mit der Gemüsebrühe ablöschen und kurz einkochen lassen. Nun die Sahne einrühren und die Soße bei mittlerer Hitze etwa 5 Minuten köcheln lassen. 
+           Oregano, Basilikum, Chiliflocken sowie Salz und Pfeffer nach Geschmack hinzufügen. 
+           Zum Schluss Butter und Parmesan unterrühren, bis die Soße schön cremig ist. 
+           Die gekochte Pasta in die Soße geben, gut vermengen und mit frischem Basilikum garniert servieren.
+      </p>
+    </div>
+
+    <div>
+      <h3>Rezept erstellt von</h3>
+
+      <div class="youserbox">
+        <img src="PlaceHolder" alt="" class="youserImg">
+        <p>UserName</p>
+      </div>
+    </div>
+  
+  
+  
+  </div>
+  
+</div>
+
+
+<footer>
+  <div class="footer-box">
+  <a href="https://facebook.com/" target="_blank">
+    <img src="img/facebook-footer-icon.png" alt="Facebook-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="img/instagram-footer-icon.png" alt="Instagram-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://twitter.com/" target="_blank">
+    <img src="img/X_logo.jpg" alt="Twitter-Icon" class="social-media-footer-icon">
+  </a>
+</div>
+  </footer>
+
+  </body>
+
+  <script src="rezeptseite_2_Team.js"></script>
+
+</html>

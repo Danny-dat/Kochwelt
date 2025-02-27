@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Champignonrisotto</title>
+
+    <link rel="icon" type="image/png" href="img/logo_small.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_rezeptseite.css" />
+    
+  </head>
+  <body onload="calculateResulte()">
+    
+  
+    <header>
+
+      <div class="header-box">
+      <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      
+      <div class="menubar">
+        <a href="index.html">Start</a>
+        <a href="rezeptseite_des_Tages.html">Rezept des Tages</a>
+        <a href="kontaktseite.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+  
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      </div>
+    </header>
+
+    
+    
+    
+    <div class="overallBox2 ">
+   
+    <div class="overallBox">
+    <div>
+      <h1>Champignon Risotto</h1>
+      <img src="img/risotto.jpg" alt="Risotto" class="coverimg">
+      <div class="tagBox">
+        <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> 45 Min.</p>
+        <p class="tagbox"><img src="img/brain-solid.svg" alt="" class="iconTag">normal</p>
+        <p class="tagbox"><img src="img/calendar-alt-regular.svg" alt="" class="iconTag">08.08.2003</p>
+      </div>
+    </div>
+    <div class="blocker"></div>
+    <div class="rezeptbox">
+      
+
+      <div class="media_sice ">  Zutaten für: 
+
+        <div class="media_sice inputbox">
+      <input class="input"  type="number"  value="4" id="anzahl" min="1" max="20"/> 
+        <button  onclick="calculateResulte()">Portionen</button>
+      </div>
+      </div>
+
+      <table class="table">
+       
+          
+          <td class="td thcolor" ><span id="ergebniss0"></span> g Risottoreis</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss1"></span> g Champignons</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss2"></span> Schalotte(n)</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss3"></span> Zehe(n) Knoblauch</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss4"></span> ml Weißwein, trocken</td>
+        
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss5"></span> ml Gemüsebrühe</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss6"></span> g Rauke</td>
+          
+        </tr>
+        <tr>
+          <td class="td "><span id="ergebniss7"></span> EL Butter</td>
+          
+        </tr>
+        <tr>
+          <td class="td thcolor"><span id="ergebniss8"></span> g Parmesan, frisch gerieben</td>
+          
+        </tr>
+      </table>
+    </div>
+
+    <div  >
+      <h2>Zubereitung</h2>
+      <div class="anleitungTagBox">
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag"> ca. 15 Minuten </p>
+      <p class="tagbox"><img src="img/clock-regular.svg" alt="" class="iconTag">Gesamtzeit ca. 30 Minuten </p>
+    </div>
+      <p class="anleitungBox" >
+        Den Reis gründlich waschen und gut abtropfen lassen.
+        Die Champignons putzen und achteln. Schalotten und Knoblauch abziehen und fein würfeln.
+        Öl in einem breiten Topf mittelstark erhitzen. Die Schalotten darin glasig dünsten, Reis und Knoblauch dazufügen
+        und etwa 2 Minuten unter Rühren weiter dünsten.
+        Die Champignonstücke dazugeben, den Wein angießen und bei offenem Topf
+        verdampfen lassen. Mit Salz und Pfeffer würzen. Nach und nach den Gemüsefond dazugießen und unter häufigem Rühren bei
+        schwacher Hitze zugedeckt etwa 20–25 Minuten ausquellen lassen. Rauke putzen, waschen, trocken schleudern und
+        grob zerkleinern, dann zusammen mit Butter und Parmesankäse unter den Risotto mischen und sofort servieren.
+      </p>
+    </div>
+
+    <div>
+      <h3>Rezept erstellt von</h3>
+
+      <div class="youserbox">
+        <img src="PlaceHolder" alt="" class="youserImg">
+        <p>UserName</p>
+      </div>
+    </div>
+  
+  
+  
+  </div>
+  
+</div>
+<footer>
+  <div class="footer-box">
+  <a href="https://facebook.com/" target="_blank">
+    <img src="img/facebook-footer-icon.png" alt="Facebook-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://instagram.com/" target="_blank">
+    <img src="img/instagram-footer-icon.png" alt="Instagram-Icon" class="social-media-footer-icon">
+  </a>
+  <a href="https://twitter.com/" target="_blank">
+    <img src="img/X_logo.jpg" alt="Twitter-Icon" class="social-media-footer-icon">
+  </a>
+</div>
+  </footer>
+  </body>
+
+  <script src="rezeptseite_3_Team.js"></script>
+
+</html>

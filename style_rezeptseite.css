@@ -1,0 +1,548 @@
+@font-face {
+  font-family: 'CustomFont bold';
+  src: url('fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+body {
+  font-family: 'CustomFont', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'CustomFont bold';
+  margin-block-start: 0;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'CustomFont bold';
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+h3 {
+
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+
+.overallBox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+
+.overallBox {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coverimg {
+  height: 300px;
+  width: 1400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.tagBox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.iconTag {
+  height: 10px;
+  width: auto;
+  padding-right: 5px;
+}
+
+.tagbox {
+  background-color: rgba(199, 198, 198, 0.466);
+  border-radius: 8px;
+  width: auto;
+  height: 20px;
+  text-align: center;
+  padding: 3px 10px;
+}
+
+.blocker {
+  width: 1400px;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.205);
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rezeptbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1400px;
+}
+
+.input {
+  border: 3px solid #f2f2f2;
+  border-radius: 0px;
+  padding: 10px ;
+  width: 150px;
+  height: 25px;
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+button {
+  background-color: #008000;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0px;
+  height: 50px;
+  width: 150px;
+  border-left: none;
+  margin-left: none;
+
+}
+
+.table {
+  table-layout: auto;
+}
+
+.td {
+  width: 150px;
+  text-align: left;
+
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.thcolor {
+  background-color: rgba(199, 198, 198, 0.466);
+}
+
+.anleitungBox {
+  width: 1400px;
+}
+
+.anleitungTagBox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.youserbox {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.youserImg {
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+.img_global {
+  height: 250px;
+  flex: 1;
+  border-radius: 15px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin: 0;
+  
+}
+
+
+
+
+
+header {
+  width:100%;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-box{
+width: 1400px;
+display: flex;
+justify-content: space-between;
+}
+
+header img {
+  height: 80px;
+  margin-left: 5px;
+}
+
+.menubar {
+  height: 90px;
+  margin-bottom: 10px;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  gap: 14px;
+}
+
+.menubar a {
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.menubar a:hover {
+  font-weight: bold;
+  color: #008000;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #008000;
+  transition: 0.5s;
+}
+
+
+
+
+/* Burger menu */
+.burger-menu {
+  margin-right: 80px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.burger-menu .bar {
+  margin-right: 80px;
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px 0;
+  transition: 3s;
+}
+
+
+
+.matrix-container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+
+footer {
+  background-color: rgb(64, 59, 59);
+  padding: 80px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footer-box{
+  width: 1400px;
+display: flex;
+justify-content: flex-end;
+gap: 32px;
+
+}
+
+.social-media-footer-icon {
+  width: 64px;
+  height: 64px;
+}
+
+
+
+@media (max-width: 1430px) {
+  .overallBox {
+    flex: 1;
+  }
+
+  .coverimg {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    
+  }
+
+  .blocker {
+    width: 100%;
+  }
+
+  .rezeptbox {
+    width: 100%;
+  }
+
+  .anleitungBox {
+    width: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 1085px) {
+  .menubar {
+      display: none;
+      width: 100%;
+      position: absolute;
+      flex-direction: row;
+      align-items: center;
+      top: 100%;
+      left: 0;
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .menubar a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      padding-right: 20px;
+      padding-bottom: 10px;
+  }
+  
+  .menubar a:hover {
+      background-color: #008000;
+      color: #efefef;
+      padding: 10px;
+      border-bottom: 0;
+      border-radius: 10px;
+      transition: 1s;
+  }
+  .menubar.active {
+      display: flex;
+      padding-top: 55px;
+  }
+
+  .burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .social-media-footer-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  footer {
+    gap: 24px;
+    padding: 70px 50px;
+  }
+}
+
+
+@media (max-width: 660px) {
+  header img {
+      height: 60px;
+      margin-left: 50px;
+  }
+
+  .menubar {
+      flex-direction: column;
+      height: 220px;
+  }
+  .menubar a {
+      margin-bottom: 20px;
+      padding-right: 0px;
+     padding-bottom: 0px;
+  }
+  .menubar a:hover {
+      background-color: #008000;
+      color: #efefef;
+      border-radius: 10px;
+  }
+
+
+  .overallBox2{
+    margin-top: 55px;
+  }
+}
+
+
+
+
+
+  @media (max-width: 550px) {
+  header img {
+      height: 60px;
+      
+  }
+
+  .menubar {
+      flex-direction: column;
+      height: 200px;
+  }
+  .menubar a {
+      margin-bottom: 20px;
+      padding-right: 0px;
+     padding-bottom: 0px;
+  }
+  .menubar a:hover {
+      background-color: #008000;
+      color: #efefef;
+      border-radius: 10px;
+  }
+}
+
+
+@media (max-width: 470px) {
+ 
+    .tagBox {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .td {
+        text-align: center;
+      }
+    
+      h2 {
+        margin-top: 25px;
+        font-size: 20px;
+      }
+
+    .anleitungTagBox {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        
+
+      }
+
+      .input {
+        border-radius: 0;
+        border-right: 3px solid #f2f2f2;
+        width: 125px;
+      }
+
+      .media_sice {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 5px;
+      }
+
+      .tagbox {
+        background-color: rgba(199, 198, 198, 0.466);
+        border-radius: 8px;
+        width: 250px;
+        height: 20px;
+        text-align: center;
+        padding: 3px 5px;
+        margin: 5px ;
+        
+      }
+
+      .anleitungBox {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      .youserbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 10px;
+      }
+
+      .social-media-footer-icon {
+        width: 32px;
+        height: 32px;
+      }
+    
+      .footer-box {
+        justify-content: center;
+       }
+      
+
+      .burger-menu {
+        margin-right: 20px;
+    }
+    
+    header img {
+        margin-left: 20px;
+        height: 60px;
+    }
+
+}
+
+
+
+
+
+
+
